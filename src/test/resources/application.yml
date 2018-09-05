@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test;MODE=MySQL;DB_CLOSE_ON_EXIT=FALSE
+    sql-script-encoding: UTF-8
+    initialize:
+     initialization-mode: none
+  jpa:
+    hibernate:
+     ddl-auto: create-drop
+    database-platform: H2
+    show-sql: true
+    generate-ddl: false
