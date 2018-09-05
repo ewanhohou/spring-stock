@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: stockservice
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test;MODE=MySQL;DB_CLOSE_DELAY=-1
+    sql-script-encoding: UTF-8
+    initialize:
+      initialization-mode: always
+  h2:
+    console.enabled: true
+    console.path: /h2
+  jpa.hibernate.ddl-auto: none
