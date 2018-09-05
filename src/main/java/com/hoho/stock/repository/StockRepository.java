@@ -9,19 +9,19 @@ import org.springframework.data.rest.core.annotation.RestResource;
 
 @RepositoryRestResource
 public interface StockRepository extends JpaRepository<Stock, Integer> {
-    // GET /Stocks/:id
+    // GET /stock/:id
     @Override
     Stock findOne(Integer id);
 
-    // GET /Stocks
+    // GET /stock
     @Override
     Page<Stock> findAll(Pageable pageable);
 
-    // POST /Stocks and PATCH /Stocks/:id
+    // POST /stocks and PATCH /stock/:id
     @Override
     Stock save(Stock s);
 
-    // DELETE /Stocks/:id
+    // DELETE /stock/:id
     @Override
     @RestResource(exported = false)
     void delete(Stock t);

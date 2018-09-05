@@ -11,3 +11,8 @@ spring:
     console.enabled: true
     console.path: /h2
   jpa.hibernate.ddl-auto: none
+
+security:
+  user:
+    name: admin
+    password: admin123

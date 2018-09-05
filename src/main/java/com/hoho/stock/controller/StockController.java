@@ -21,7 +21,7 @@ public class StockController {
 
     @ApiOperation(value = "取得股票", notes = "列出所有股票")
     @ResponseStatus(HttpStatus.OK)
-    @GetMapping(value = "/v1/stocks", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @GetMapping(value = "/v1/stock", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public List<Stock> getAll() {
         return stockRepository.findAll();
     }
