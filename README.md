@@ -8,5 +8,7 @@ http://localhost:8080/swagger-ui.html
 
 security:
 
-user:admin
+user:admin 
+
 password:admin123
+
