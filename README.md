@@ -2,9 +2,9 @@
 
 > Spring-boot rest api demo
 
-localhost:8080/api/stock
+http://localhost:8080/api/stock
 
-localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui.html
 
 security:
 
