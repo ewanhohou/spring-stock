@@ -2,13 +2,16 @@
 
 > Spring-boot rest api demo
 
-http://localhost:8080/api/stock
-
+```sh
+mvn spring-boot:run
+```
 http://localhost:8080/swagger-ui.html
 
-security:
+http://localhost:8080/api/stock
 
-user:admin 
+Security:
 
-password:admin123
+  account:admin 
+  
+  password:admin123
 
